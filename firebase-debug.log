@@ -1,0 +1,39 @@
+[debug] [2023-04-11T14:49:40.385Z] ----------------------------------------------------------------------
+[debug] [2023-04-11T14:49:40.390Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-11T14:49:40.391Z] CLI Version:   11.25.3
+[debug] [2023-04-11T14:49:40.391Z] Platform:      win32
+[debug] [2023-04-11T14:49:40.392Z] Node Version:  v16.13.1
+[debug] [2023-04-11T14:49:40.395Z] Time:          Tue Apr 11 2023 10:49:40 GMT-0400 (hora de Venezuela)
+[debug] [2023-04-11T14:49:40.395Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-11T14:49:40.417Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-11T14:49:40.418Z] > authorizing via signed-in user (alexparracol81@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USUARIO\Documents\Documentos Simon\Simón Programacion\Angular\envioCorreo-Node.js
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-11T15:07:08.208Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-11T15:07:08.790Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-11T15:07:08.790Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project enviocorreo-2c887 (envioCorreo) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
