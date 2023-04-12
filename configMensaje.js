@@ -1,17 +1,19 @@
 
     const nodemailer = require('nodemailer');
 
+    require('dotenv').config({path:'./.env'});
+
     module.exports = (formulario) => {
     var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-    user: 'normacol81@gmail.com', // Cambialo por tu email
-    pass: 'hrmjgeyrchepkzmp' // Cambialo por tu password
+    user: process.env.USER, // Cambialo por tu email
+    pass: process.env.PASSWORD  // Cambialo por tu password
     }
     });
     const mailOptions = {
     from: `${formulario.nombre} <${formulario.email}>`,
-    to: 'alexparracol81@gmail.com', // Cambia esta parte por el destinatario
+    to: process.env.USER, // Cambia esta parte por el destinatario
     subject: formulario.asunto,
     html: `
     <strong>Nombre:</strong> ${formulario.nombre} <br/>
